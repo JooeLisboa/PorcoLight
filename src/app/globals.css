@@ -3,19 +3,19 @@
 @tailwind utilities;
 
 :root {
-  --background: 42 33% 95%;
-  --foreground: 145 35% 16%;
-  --card: 45 38% 97%;
-  --card-foreground: 145 35% 16%;
-  --primary: 142 38% 24%;
-  --primary-foreground: 45 45% 95%;
-  --secondary: 40 42% 87%;
-  --secondary-foreground: 145 32% 19%;
-  --muted: 42 20% 89%;
-  --muted-foreground: 145 14% 34%;
-  --accent: 40 39% 55%;
-  --accent-foreground: 145 35% 16%;
-  --border: 40 25% 80%;
+  --background: 20 37% 8%;
+  --foreground: 33 71% 90%;
+  --card: 19 36% 11%;
+  --card-foreground: 33 71% 90%;
+  --primary: 14 72% 42%;
+  --primary-foreground: 33 71% 90%;
+  --secondary: 24 55% 20%;
+  --secondary-foreground: 33 71% 90%;
+  --muted: 21 38% 16%;
+  --muted-foreground: 33 40% 74%;
+  --accent: 34 69% 51%;
+  --accent-foreground: 20 37% 8%;
+  --border: 21 36% 26%;
 }
 
 * {
@@ -28,7 +28,11 @@ html {
 
 body {
   @apply bg-background text-foreground antialiased;
-  background-image: linear-gradient(to bottom, #f6f1e5, #f8f4eb 40%, #f6f0e1);
+  background-image:
+    radial-gradient(circle at 15% -10%, rgba(217, 139, 43, 0.28), transparent 34%),
+    radial-gradient(circle at 85% 10%, rgba(182, 70, 30, 0.22), transparent 38%),
+    linear-gradient(180deg, #1c120d 0%, #160e0b 40%, #1a110d 100%);
+  min-height: 100vh;
 }
 
 section {
