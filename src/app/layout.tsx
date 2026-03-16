@@ -2,19 +2,19 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Porco Light | Pesqueiro & Buffe’s Service",
+  title: "Porco Light | Restaurante, Churrascaria, Pesqueiro e Buffet",
   description:
-    "Almoço, porções e pesca esportiva em Arealva/SP. Site institucional com foco em contato rápido pelo WhatsApp, localização e confiança.",
+    "Experiência gastronômica premium em Arealva/SP com almoço especial, porções, pesqueiro e buffet service. Reserve direto no WhatsApp.",
   keywords: [
     "restaurante em Arealva",
+    "churrascaria Arealva",
     "pesqueiro Arealva",
-    "almoço em Arealva",
-    "pesca esportiva SP",
-    "buffet Arealva"
+    "almoço especial",
+    "buffet service"
   ],
   openGraph: {
-    title: "Porco Light | Pesqueiro & Buffe’s Service",
-    description: "Ambiente familiar, boa comida, pesca esportiva e atendimento regional.",
+    title: "Porco Light | Fogo, madeira e sabor",
+    description: "Brasa premium, tradição regional e ambiente familiar de alto valor percebido.",
     locale: "pt_BR",
     type: "website"
   }
