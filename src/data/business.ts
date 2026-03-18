@@ -1,4 +1,10 @@
-import { ContactItem, HighlightItem, ServiceItem } from "@/types/business";
+import {
+  ContactItem,
+  GalleryPreviewItem,
+  HighlightItem,
+  QuickInfoItem,
+  ServiceItem
+} from "@/types/business";
 
 export const business = {
   name: "Porco Light",
@@ -24,11 +30,31 @@ export const business = {
   bioRoute: "/cartao"
 };
 
+export const experienceChips = [
+  "Almoço especial",
+  "Pesqueiro",
+  "Ambiente familiar",
+  "Buffet service",
+  "Lazer e descanso"
+];
+
 export const highlights: HighlightItem[] = [
-  { title: "Brasa e Sabor", detail: "Carnes, porções e pratos com assinatura da casa." },
-  { title: "Pesqueiro Completo", detail: "Lazer com estrutura para família e amigos." },
-  { title: "Buffet Service", detail: "Atendimento para eventos e comemorações." },
-  { title: "Autoridade Regional", detail: "Referência de Arealva para almoço especial." }
+  {
+    title: "Experiência gastronômica",
+    detail: "Brasa, buffet e porções com apresentação caprichada e sabor de casa boa."
+  },
+  {
+    title: "Lazer além da mesa",
+    detail: "Pesqueiro e clima de sítio para prolongar a visita com tranquilidade."
+  },
+  {
+    title: "Perfeito para família",
+    detail: "Espaço acolhedor para almoço de domingo, encontros e momentos sem pressa."
+  },
+  {
+    title: "Chegada simples",
+    detail: "Localização prática em Arealva com rota fácil para quem vem passar o dia."
+  }
 ];
 
 export const services: ServiceItem[] = [
@@ -64,6 +90,32 @@ export const services: ServiceItem[] = [
   }
 ];
 
+export const galleryPreview: GalleryPreviewItem[] = [
+  {
+    title: "Lago e paisagem",
+    detail: "Espaço preparado para fotos reais do pesqueiro e do entorno.",
+    accent: "from-[#9a6434]/90 via-[#593521]/80 to-[#211611]/95",
+    span: "wide"
+  },
+  {
+    title: "Salão e mesas",
+    detail: "Clima acolhedor para almoço em família e encontros especiais.",
+    accent: "from-[#6f3d25]/90 via-[#362118]/80 to-[#1f1511]/95"
+  },
+  {
+    title: "Brasa e pratos",
+    detail: "Preview para registrar cortes, buffet e porções da casa.",
+    accent: "from-[#b56e2e]/85 via-[#6d341b]/85 to-[#251611]/95",
+    span: "tall"
+  }
+];
+
+export const usefulInfo: QuickInfoItem[] = [
+  { label: "Funcionamento", value: business.hours },
+  { label: "Localização", value: business.address },
+  { label: "Referência", value: business.locationReference }
+];
+
 export const contacts: ContactItem[] = [
   {
     label: "Reserva e informações",
@@ -83,8 +135,7 @@ export const contacts: ContactItem[] = [
 
 export const premiumLinks = [
   { label: "Falar no WhatsApp", href: business.primaryWhatsapp.href },
-  { label: "Pedir cardápio", href: business.menuUrl },
-  { label: "Reservar almoço", href: business.reserveUrl },
+  { label: "Conheça o estabelecimento", href: `${business.bioRoute}#ambiente` },
   { label: "Como chegar", href: business.routeUrl },
   { label: "Instagram oficial", href: business.instagramUrl }
 ];
