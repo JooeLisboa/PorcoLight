@@ -1,0 +1,14 @@
+<svg width="1200" height="1500" viewBox="0 0 1200 1500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="1500" fill="#1A110D"/>
+  <rect y="920" width="1200" height="580" fill="#2C1D16"/>
+  <path d="M0 980C130 870 215 820 345 812C450 806 540 835 633 809C734 780 805 716 930 702C1036 691 1112 724 1200 790V1500H0V980Z" fill="#3A251B"/>
+  <path d="M0 780C164 626 304 560 462 563C639 567 758 676 900 652C1015 633 1089 559 1200 486V934C1112 868 1019 843 909 856C793 869 732 925 612 933C470 942 392 878 261 893C171 902 88 952 0 1036V780Z" fill="#8E4529"/>
+  <circle cx="940" cy="312" r="154" fill="#F0BB77" fill-opacity="0.72"/>
+  <rect x="186" y="805" width="168" height="402" rx="22" fill="#2A1811"/>
+  <rect x="332" y="728" width="246" height="505" rx="28" fill="#2F1B13"/>
+  <rect x="570" y="650" width="294" height="588" rx="30" fill="#26150F"/>
+  <rect x="840" y="758" width="188" height="446" rx="24" fill="#2B1811"/>
+  <path d="M164 1263H1047" stroke="#D08B56" stroke-width="28" stroke-linecap="round"/>
+  <path d="M344 728C344 728 448 684 574 650" stroke="#F5D1A2" stroke-width="14" stroke-linecap="round" stroke-opacity="0.7"/>
+  <text x="108" y="1386" fill="#F8E6D0" font-family="Arial, sans-serif" font-size="58" font-weight="700">Chegada • trocar pela foto final</text>
+</svg>

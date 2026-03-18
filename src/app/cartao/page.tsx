@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { business, premiumLinks } from "@/data/business";
@@ -64,14 +65,8 @@ export default function CartaoPage() {
             </a>
 
             <div className="mt-4 space-y-3">
-              {premiumLinks.map((link) => (
-                <a
-                  key={link.label}
-                  href={link.href}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="block"
-                >
+              {premiumLinks.map((link) => {
+                const buttonContent = (
                   <Button
                     variant="outline"
                     size="xl"
@@ -79,8 +74,28 @@ export default function CartaoPage() {
                   >
                     <Sparkles className="h-4 w-4 text-gold-400" /> {link.label}
                   </Button>
-                </a>
-              ))}
+                );
+
+                if (link.external) {
+                  return (
+                    <a
+                      key={link.label}
+                      href={link.href}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="block"
+                    >
+                      {buttonContent}
+                    </a>
+                  );
+                }
+
+                return (
+                  <Link key={link.label} href={link.href} className="block">
+                    {buttonContent}
+                  </Link>
+                );
+              })}
             </div>
 
             <div className="mt-6 space-y-3 rounded-2xl border border-ember-700/70 bg-[#241610] p-4 text-sm text-[#e7ccb0]">

@@ -1,0 +1,13 @@
+<svg width="1200" height="1500" viewBox="0 0 1200 1500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="1500" fill="#15100B"/>
+  <rect y="950" width="1200" height="550" fill="#241A12"/>
+  <circle cx="280" cy="296" r="168" fill="#F0C47D" fill-opacity="0.74"/>
+  <rect x="182" y="774" width="836" height="414" rx="46" fill="#2C1F15"/>
+  <rect x="244" y="838" width="712" height="284" rx="34" fill="#3A291D"/>
+  <rect x="320" y="908" width="188" height="88" rx="20" fill="#523627"/>
+  <rect x="548" y="908" width="188" height="88" rx="20" fill="#523627"/>
+  <rect x="776" y="908" width="118" height="88" rx="20" fill="#523627"/>
+  <path d="M112 1110C248 1062 364 1038 484 1038C626 1038 742 1074 850 1074C946 1074 1046 1046 1140 1002" stroke="#E1A254" stroke-width="18" stroke-linecap="round" stroke-opacity="0.74"/>
+  <path d="M220 656C280 592 368 560 478 560C630 560 754 630 908 630" stroke="#F8E6D0" stroke-width="18" stroke-linecap="round" stroke-opacity="0.6"/>
+  <text x="108" y="1400" fill="#F8E6D0" font-family="Arial, sans-serif" font-size="58" font-weight="700">Lazer • trocar pela foto final</text>
+</svg>

@@ -1,0 +1,13 @@
+<svg width="1200" height="1500" viewBox="0 0 1200 1500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="1500" fill="#0F1818"/>
+  <rect y="874" width="1200" height="626" fill="#152423"/>
+  <path d="M0 900C160 842 303 808 443 808C597 808 732 858 880 858C991 858 1098 831 1200 776V1500H0V900Z" fill="#1E3A38"/>
+  <path d="M0 682C190 598 349 580 515 624C662 662 768 749 908 756C1016 762 1100 731 1200 650V927C1108 977 1004 1004 890 1004C736 1004 614 939 452 937C307 936 172 988 0 1066V682Z" fill="#315D55"/>
+  <circle cx="917" cy="244" r="132" fill="#F5D48D" fill-opacity="0.72"/>
+  <path d="M198 854L358 554L508 854H198Z" fill="#17332E"/>
+  <path d="M410 864L602 492L795 864H410Z" fill="#1A3F38"/>
+  <path d="M696 868L886 580L1054 868H696Z" fill="#17332E"/>
+  <path d="M0 1134C124 1084 240 1058 348 1058C497 1058 579 1113 726 1113C855 1113 977 1069 1200 995" stroke="#76C1B2" stroke-width="24" stroke-linecap="round" stroke-opacity="0.72"/>
+  <path d="M0 1214C161 1166 258 1150 370 1150C527 1150 624 1202 768 1202C900 1202 1034 1161 1200 1096" stroke="#A9E4D8" stroke-width="14" stroke-linecap="round" stroke-opacity="0.74"/>
+  <text x="108" y="1400" fill="#E8F7F1" font-family="Arial, sans-serif" font-size="58" font-weight="700">Pesqueiro • trocar pela foto final</text>
+</svg>

@@ -15,3 +15,16 @@ export type ContactItem = {
   phoneHref: string;
   whatsappHref: string;
 };
+
+export type PhotoAlbumItem = {
+  title: string;
+  description: string;
+  src: string;
+  alt: string;
+  accent: string;
+};
+
+export type ExperiencePillar = {
+  title: string;
+  detail: string;
+};
