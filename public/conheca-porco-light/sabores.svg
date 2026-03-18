@@ -1,0 +1,13 @@
+<svg width="1200" height="1500" viewBox="0 0 1200 1500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="1500" fill="#170F0B"/>
+  <circle cx="604" cy="790" r="390" fill="#251712"/>
+  <circle cx="604" cy="790" r="324" fill="#2C1A14" stroke="#E1A254" stroke-width="12"/>
+  <path d="M386 706C440 620 514 578 608 578C700 578 792 635 822 726C854 824 798 921 706 966C620 1008 508 992 433 917C370 854 345 775 386 706Z" fill="#8F4024"/>
+  <path d="M446 694C503 638 544 618 612 618C682 618 734 650 775 715C742 770 692 808 628 823C544 842 482 808 446 694Z" fill="#C56A35"/>
+  <path d="M358 875C442 926 518 950 595 952C689 955 768 920 860 854" stroke="#F5D1A2" stroke-width="24" stroke-linecap="round" stroke-opacity="0.74"/>
+  <circle cx="790" cy="560" r="52" fill="#F3C97D" fill-opacity="0.78"/>
+  <circle cx="398" cy="980" r="46" fill="#F3C97D" fill-opacity="0.56"/>
+  <circle cx="846" cy="924" r="44" fill="#7FAF61" fill-opacity="0.66"/>
+  <circle cx="504" cy="576" r="34" fill="#7FAF61" fill-opacity="0.72"/>
+  <text x="108" y="1400" fill="#F8E6D0" font-family="Arial, sans-serif" font-size="58" font-weight="700">Sabores • trocar pela foto final</text>
+</svg>
