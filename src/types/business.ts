@@ -15,15 +15,3 @@ export type ContactItem = {
   phoneHref: string;
   whatsappHref: string;
 };
-
-export type GalleryPreviewItem = {
-  title: string;
-  detail: string;
-  accent: string;
-  span?: "wide" | "tall";
-};
-
-export type QuickInfoItem = {
-  label: string;
-  value: string;
-};
